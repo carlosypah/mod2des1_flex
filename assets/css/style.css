@@ -1,0 +1,146 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.flex-container{
+    display: flex;
+}
+.menu{
+    margin: 0;
+    width: 20vw;
+    min-height: 100vh;
+    border-right: 1px solid lightgray;
+}
+.miperfil{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-items: center;
+    border-bottom: 1px solid lightgray;
+    overflow: auto;
+}
+.miperfil img{
+    width: 3vw;
+    border-radius: 70%;
+    justify-content: center;
+    padding: 10px 10px 10px 20px;
+}
+.miperfil-img{
+    aspect-ratio: 1/1;
+}
+.miperfil-textos{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 59vw;
+}
+.miperfil-textos h5{
+    margin: 0;
+    font-size: 1.21vw;
+    font-weight: 500;
+}
+.miperfil-textos h6{
+    margin: 0;
+    font-size: 0.8vw;
+    font-weight: 300;
+}
+.miperfil-globo{
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18vw;
+    text-align: center;
+    font-size: 1.21vw;
+}
+.miperfil-hamburguesa{
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18vw;
+    text-align: center;
+    justify-items: center;
+    padding-right: 10px;
+    font-size: 1.21vw;
+}
+.nuevochat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8em;
+    border-bottom: 1px solid lightgray;
+}
+.nuevochat button{
+    background-color: #a490d2; /* Green */
+    height: 4em;
+    width: 14em;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+}
+.contactos{
+    display: flex;
+    flex-direction: column;
+}
+.otroperfil{
+    display: flex;
+    flex-direction: row;
+    justify-content:  center;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+.otroperfil img{
+    width: 15%;
+    border-radius: 50%;
+    padding: 10px 10px 10px 10px;
+    aspect-ratio: 1/1;
+}
+.otroperfil-textos{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 40%;
+}
+.otroperfil-textos h5{
+    margin: 0;
+    font-size: 0.9vw;
+    font-weight: 400;
+}
+.otroperfil-textos h6{
+    margin: 0;
+    font-size: 0.8vw;
+    font-weight: 400;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 77vw;
+    text-align: center;
+}
+.main img{
+    width: 20vw;
+}
+.main h2{
+    width: 40vw;
+    font-size: 3vw;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.main small{
+    width: 28vw;
+    font-size: 1vw;
+    font-weight: 300;
+}
